@@ -810,7 +810,7 @@ img {
 
 @media screen and (max-width: 767px) {
     .ul-list-customers {
-        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 72px 16px;
     }
