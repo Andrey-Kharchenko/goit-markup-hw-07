@@ -27,25 +27,24 @@
     margin-right: auto;
   }
   
-  @media screen and (min-width: 428px) {
-    .container {
-      width: 428px;
-    }
-
-  }
-
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 768px;
-    }
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .container {
-      width: 1158px;
-    }
+@media screen and (min-width: 428px) {
+.container {
+    width: 428px;
 }
 
+}
+
+@media screen and (min-width: 768px) {
+.container {
+    width: 768px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.container {
+    width: 1158px;
+}
+}
 
 .head {
     color: var(--color-text-primary);
