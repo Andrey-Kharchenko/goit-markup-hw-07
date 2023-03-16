@@ -13,22 +13,82 @@
 </head>
 <body> 
     <header class="header">
-        <div class="container">
-            <div class="header-container">
-                <nav class="header-nav">
-                    <a class="logo" href="./index.html">WEB<span class="logo-second">STUDIO</span></a>
-                    <ul class="header-menu">
-                        <li><a href="./index.html" class="header-link">Studio</a></li>
-                        <li><a href="./portfolio.html" class="header-link current">Portfolio</a></li>
-                        <li><a href="" class="header-link">Contacts</a></li>
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a class="logo" href="./index.html">WEB<span class="logo-second">STUDIO</span></a>
+                <ul class="header-menu">
+                    <li><a href="./index.html" class="header-link">Studio</a></li>
+                    <li><a href="./portfolio.html" class="header-link current">Portfolio</a></li>
+                    <li><a href="" class="header-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header-address">
+                <ul class="header-menu">
+                    <li><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a></li>   
+                </ul>
+            </address>
+            <button type="button" 
+                class="mobile-menu-open js-open-menu" 
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                <svg class="mobile-menu-burger" aria-label="mobile menu switcher" width="32" height="22">
+                    <use href="./images/symbol-defs.svg#burger-menu"></use>
+                </svg>
+
+                <!-- Mobile menu -->
+                
+            </button>
+            <div class="mobile-menu js-menu-container" id="mobile-menu">
+                <div class="container container-mobile-menu">
+                    <button class="mobile-menu-close js-close-menu" type="button">
+                        <svg width="8" height="8">
+                            <use href="./images/symbol-defs.svg#close"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile-nav">
+                        <li><a href="./index.html" class="mobile-link current-mobile">Studio</a></li>
+                        <li><a href="./portfolio.html" class="mobile-link">Portfolio</a></li>
+                        <li><a href="" class="mobile-link">Contacts</a></li>
                     </ul>
-                </nav>
-                <address class="header-address">
-                    <ul class="header-menu">
-                        <li><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a></li>   
-                    </ul>
-                </address>
+                    
+                    <div class="mobile-address">
+                        <ul class="mobile-contacts">
+                            <li><a class="mobile-phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li><a class="mobile-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                        <ul class="mobile-social-list">
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
             </div>
         </div>
     </header>  
@@ -229,5 +289,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+
 </body>
 </html>
