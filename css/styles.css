@@ -339,7 +339,6 @@ ul {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hero {
-        height: 432px;
 		background-size: cover;
         background-image: linear-gradient(to right, var(--grey), var(--grey)),
         url(../images/hero-mobile@2x.jpg);
